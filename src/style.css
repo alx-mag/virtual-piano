@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&display=swap');
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.container kbd {
+    font-family: 'Noto Serif', serif;
+}
+
+.white-keys {
+    display: flex;
+    justify-content: center;
+    margin: 20px;
+    position: absolute;
+}
+
+.white-keys kbd {
+    text-align: center;
+    display: inline-block;
+    background-color: white;
+    border-style: solid;
+    padding: 200px 30px 40px 30px;
+}
+.black-keys {
+    position: absolute;
+    margin: 20px;
+    text-align: center;
+}
+
+
+.black-keys kbd {
+    background-color: black;
+    color: white;
+    display: inline-block;
+    padding: 130px 20px 40px 20px;
+}
+
+#w-key {
+    position: relative;
+    right: 75px;
+}
+
+#e-key {
+    position: relative;
+    right: 55px;
+}
+
+#t-key {
+    position: relative;
+    left: 35px;
+}
+
+#y-key {
+    position: relative;
+    left: 55px;
+}
+
+#u-key {
+    position: relative;
+    left: 75px;
+}
+
+body {
+    background-color: coral;
+}
